@@ -1,0 +1,99 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Ignore Maven target directory
+/target/
+
+# Ignore build files
+/build/
+
+# Ignore IntelliJ IDEA project files
+/.idea/
+/*.iml
+
+# Ignore Eclipse project files
+/.project
+/.classpath
+/.settings/
+
+# Ignore MacOS files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore application properties that may contain sensitive data
+/src/main/resources/application.properties
+
+# Ignore generated files
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore Spring Boot specific files
+/*.log
+/*.pid
+/*.swp
+
+# Ignore Flyway files (if you don't want to include versioned migration scripts)
+db/migration/*.sql
+
+# Ignore Node.js modules for Angular
+/webapp/angular/node_modules/
+/webapp/angular/dist/
+/webapp/angular/out-tsc/
+/webapp/angular/.angular/cache/
+
+# Ignore Angular environment files (if you have sensitive data there)
+webapp/angular/src/environments/environment*.ts
+
+# Ignore Angular build output
+/webapp/angular/.angular/caches/
+
+# Ignore OS generated files
+Thumbs.db
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore yarn lock files
+yarn.lock
+
+# Ignore package-lock.json (depending on whether you're using npm or yarn)
+package-lock.json
+
+# Ignore Angular end-to-end testing (if applicable)
+webapp/angular/e2e/
+
